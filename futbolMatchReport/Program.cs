@@ -55,7 +55,7 @@ public class Manager
     
     public string Describe()
     {
-        return Club is null? Name : $"{Name}, {Club}";
+        return Club is null ? Name : $"{Name} ({Club})";
     }
 }
 

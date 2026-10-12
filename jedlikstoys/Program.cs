@@ -10,6 +10,8 @@ class RemoteControlCar
 
         carro.Drive();
         carro.Drive();
+        carro.Drive();
+        carro.Drive();
 
         Console.WriteLine($"Distancia conducida: {carro.DistanceDisplay()}");
         Console.WriteLine($"Porcentaje de la bateria: {carro.BatteryDisplay()}");

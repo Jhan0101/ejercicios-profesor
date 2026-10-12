@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\InterestIsInteresting\\interestIsInteresting.csproj": {}
+    "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\interestIsInteresting\\interestIsInteresting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\InterestIsInteresting\\interestIsInteresting.csproj": {
+    "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\interestIsInteresting\\interestIsInteresting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\InterestIsInteresting\\interestIsInteresting.csproj",
+        "projectUniqueName": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\interestIsInteresting\\interestIsInteresting.csproj",
         "projectName": "interestIsInteresting",
-        "projectPath": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\InterestIsInteresting\\interestIsInteresting.csproj",
+        "projectPath": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\interestIsInteresting\\interestIsInteresting.csproj",
         "packagesPath": "C:\\Users\\Jhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\InterestIsInteresting\\obj\\",
+        "outputPath": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\interestIsInteresting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

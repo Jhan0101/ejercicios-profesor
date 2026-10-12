@@ -9,9 +9,9 @@ static class SavingsAccount
     Console.WriteLine("Cual es su balance?");
     decimal monto = Convert.ToDecimal(Console.ReadLine());
     Console.WriteLine($"Su tasa de interes es de: {InterestRate(monto)}");
-    Console.WriteLine($"Intereses: {Interest(monto)}");
+    Console.WriteLine($"Intereses generados: {Interest(monto)}");
     Console.WriteLine($"Actualizacion de su balance anual: {AnnualBalanceUpdate(monto)}");
-    Console.WriteLine("\nCual es el balance que quiere conseguir?");
+    Console.WriteLine("Cual es el balance que quiere conseguir?");
     decimal objetivo = Convert.ToDecimal(Console.ReadLine());
     Console.WriteLine($"Cantidad de anos que le tomara alcanzarlo: {YearsBeforeDesiredBalance(monto, objetivo)}");
 }
@@ -20,10 +20,10 @@ static class SavingsAccount
        if(balance<0){
            return 3.213f;
            
-       } else if (balance>0 && balance<1000){
+       } else if (balance<1000){
            return 0.5f;
            
-       }else if ( balance>1000 && balance<5000){
+       }else if (balance<5000){
            return 1.621f;
            
        }else {
