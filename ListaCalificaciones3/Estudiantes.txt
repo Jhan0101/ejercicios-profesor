@@ -1,0 +1,3 @@
+Jhonatan;Perez;7812;quinto;89;78;81;85
+Jhan ;Pimentel;7912;Matematica;78;76;87;67
+Aishell;diaz;8123;primero;89;12;35;87
