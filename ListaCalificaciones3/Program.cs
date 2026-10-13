@@ -245,8 +245,6 @@ class Estudiante
     }
 
 
-
-
     static int LeerNota(int num)
     {
         int nota;
@@ -258,8 +256,6 @@ class Estudiante
 
         return nota;
     }
-
-
 
 
     public static List<Estudiante> LeerTodo()
@@ -278,8 +274,6 @@ class Estudiante
 
         return lista;
     }
-
-
 
 
     public static void MostrarTabla(List<Estudiante> lista)
@@ -321,8 +315,6 @@ class Estudiante
        
     }
 }
-
-
 
 class Program
 {
