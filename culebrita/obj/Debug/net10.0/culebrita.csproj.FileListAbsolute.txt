@@ -1,0 +1,15 @@
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\bin\Debug\net10.0\culebrita.exe
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\bin\Debug\net10.0\culebrita.deps.json
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\bin\Debug\net10.0\culebrita.runtimeconfig.json
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\bin\Debug\net10.0\culebrita.dll
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\bin\Debug\net10.0\culebrita.pdb
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\culebrita.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\culebrita.AssemblyInfoInputs.cache
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\culebrita.AssemblyInfo.cs
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\culebrita.csproj.CoreCompileInputs.cache
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\culebrita.sourcelink.json
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\culebrita.dll
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\refint\culebrita.dll
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\culebrita.pdb
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\culebrita.genruntimeconfig.cache
+C:\Users\Jhan\Desktop\Ejercicios C#\culebrita\obj\Debug\net10.0\ref\culebrita.dll
