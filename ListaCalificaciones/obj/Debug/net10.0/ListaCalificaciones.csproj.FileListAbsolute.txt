@@ -1,0 +1,15 @@
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\ListaCalificaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\ListaCalificaciones.AssemblyInfoInputs.cache
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\ListaCalificaciones.AssemblyInfo.cs
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\ListaCalificaciones.csproj.CoreCompileInputs.cache
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\ListaCalificaciones.sourcelink.json
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\bin\Debug\net10.0\ListaCalificaciones.exe
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\bin\Debug\net10.0\ListaCalificaciones.deps.json
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\bin\Debug\net10.0\ListaCalificaciones.runtimeconfig.json
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\bin\Debug\net10.0\ListaCalificaciones.dll
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\bin\Debug\net10.0\ListaCalificaciones.pdb
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\ListaCalificaciones.dll
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\refint\ListaCalificaciones.dll
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\ListaCalificaciones.pdb
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\ListaCalificaciones.genruntimeconfig.cache
+C:\Users\Jhan\Desktop\Ejercicios C#\ListaCalificaciones\obj\Debug\net10.0\ref\ListaCalificaciones.dll

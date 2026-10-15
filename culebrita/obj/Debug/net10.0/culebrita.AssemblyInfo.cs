@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("culebrita")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+973c3ff54a8cbaf4960892de62adbb2941dd010a")]
 [assembly: System.Reflection.AssemblyProductAttribute("culebrita")]
 [assembly: System.Reflection.AssemblyTitleAttribute("culebrita")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

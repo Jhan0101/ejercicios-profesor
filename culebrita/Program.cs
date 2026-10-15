@@ -114,7 +114,10 @@ namespace JuegoSnake
                 LimiteSuperior.Y + (LimiteInferior.Y / 2) - 2);
             Console.Write(text);
             Thread.Sleep(3000);
+<<<<<<< HEAD
             Console.Clear();
+=======
+>>>>>>> 315f9479c890df00ba75ba75c7a58d7911e66072
             DibujarMarco();
         }
     }

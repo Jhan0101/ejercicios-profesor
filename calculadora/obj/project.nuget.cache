@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "fmIbkEJN8aA=",
@@ -5,4 +6,13 @@
   "projectFilePath": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\calculadora\\calculadora.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "43BYcYtCHd8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\calculadora\\calculadora.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> 315f9479c890df00ba75ba75c7a58d7911e66072
 }

@@ -13,11 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\culebrita\\culebrita.csproj",
       "projectName": "culebrita",
       "projectPath": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\culebrita\\culebrita.csproj",
       "packagesPath": "C:\\Users\\Jhan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\culebrita\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\culebrita\\culebrita.csproj",
+      "projectName": "culebrita",
+      "projectPath": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\culebrita\\culebrita.csproj",
+      "packagesPath": "C:\\Users\\Jhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jhan\\Desktop\\Ejercicios C#\\culebrita\\obj\\",
+>>>>>>> 315f9479c890df00ba75ba75c7a58d7911e66072
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
