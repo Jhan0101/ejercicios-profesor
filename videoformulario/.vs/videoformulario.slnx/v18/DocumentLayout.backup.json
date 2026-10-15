@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\videoformulario\\videoformulario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|solutionrelative:videoformulario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\videoformulario\\videoformulario\\dato\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|solutionrelative:videoformulario\\dato\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\videoformulario\\videoformulario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|solutionrelative:videoformulario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\videoformulario\\videoformulario\\modelo\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|solutionrelative:videoformulario\\modelo\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\videoformulario\\videoformulario\\videoformulario.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{564A7540-65C2-4DE3-B7DE-512B3EE95EC9}|videoformulario\\videoformulario.csproj|solutionrelative:videoformulario\\videoformulario.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\Form1.cs",
+              "RelativeDocumentMoniker": "videoformulario\\Form1.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "videoformulario\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T16:22:49.682Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\Form1.cs",
+              "RelativeDocumentMoniker": "videoformulario\\Form1.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\Form1.cs",
+              "RelativeToolTip": "videoformulario\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T16:24:31.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\Dato\\Usuario.cs",
+              "RelativeDocumentMoniker": "videoformulario\\Dato\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\Dato\\Usuario.cs",
+              "RelativeToolTip": "videoformulario\\Dato\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T16:46:42.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\Modelo\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "videoformulario\\Modelo\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\Modelo\\UsuarioModel.cs",
+              "RelativeToolTip": "videoformulario\\Modelo\\UsuarioModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T16:45:02.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "videoformulario",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\videoformulario.csproj",
+              "RelativeDocumentMoniker": "videoformulario\\videoformulario.csproj",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\videoformulario\\videoformulario\\videoformulario.csproj",
+              "RelativeToolTip": "videoformulario\\videoformulario.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-15T16:44:10.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

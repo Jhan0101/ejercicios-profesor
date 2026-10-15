@@ -1,0 +1,16 @@
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\bin\Debug\net10.0-windows\videoformulario.exe
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\bin\Debug\net10.0-windows\videoformulario.deps.json
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\bin\Debug\net10.0-windows\videoformulario.runtimeconfig.json
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\bin\Debug\net10.0-windows\videoformulario.dll
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\bin\Debug\net10.0-windows\videoformulario.pdb
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\videoformulario.Form1.resources
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\videoformulario.csproj.GenerateResource.cache
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\videoformulario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\videoformulario.AssemblyInfoInputs.cache
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\videoformulario.AssemblyInfo.cs
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\videoformulario.csproj.CoreCompileInputs.cache
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\videoformulario.dll
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\refint\videoformulario.dll
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\videoformulario.pdb
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\videoformulario.genruntimeconfig.cache
+C:\Users\Jhan\Desktop\proyectos_c#\videoformulario\videoformulario\obj\Debug\net10.0-windows\ref\videoformulario.dll
