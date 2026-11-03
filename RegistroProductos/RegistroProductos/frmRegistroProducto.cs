@@ -2,13 +2,14 @@ using System.Drawing.Text;
 
 namespace RegistroProductos
 {
-    public partial class Form1 : Form
+    public partial class frmRegistroProducto : Form
     {
         private int idSeleccionado = 0;
 
-        public Form1()
+        public frmRegistroProducto()
         {
             InitializeComponent();
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -28,6 +29,20 @@ namespace RegistroProductos
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtCodigo.Text))
+            {
+                MessageBox.Show("Escriba el codigo del producto.");
+                txtCodigo.Focus();
+                return;
+            }
+
+            if (ProductoDAO.ComprobarCodigo(txtCodigo.Text))
+            {
+                MessageBox.Show("Ya existe un producto con ese codigo.");
+                txtCodigo.Focus();
+                return;
+            }
+
             if (string.IsNullOrWhiteSpace(txtNombre.Text))
             {
                 MessageBox.Show("Escriba un nombre para el producto.");
@@ -52,6 +67,7 @@ namespace RegistroProductos
             try
             {
                 Producto p = new Producto();
+                p.Codigo = txtCodigo.Text.Trim();
                 p.Nombre = txtNombre.Text.Trim();
                 p.Categoria = string.IsNullOrWhiteSpace(txtCategoria.Text) ? null : txtCategoria.Text.Trim();
                 p.Precio = precio;
@@ -70,6 +86,7 @@ namespace RegistroProductos
         }
         private void LimpiarCampos()
         {
+            txtCodigo.Text = "";
             txtNombre.Text = "";
             txtCategoria.Text = "";
             txtPrecio.Text = "";
@@ -82,6 +99,11 @@ namespace RegistroProductos
         {
             ProductoDAO dao = new ProductoDAO();
             dgvProductos.DataSource = dao.ObtenerProductos();
+            
+            if (dgvProductos.Columns.Contains("ID"))
+            {
+                dgvProductos.Columns["ID"].Visible = false;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -97,6 +119,8 @@ namespace RegistroProductos
             if (fila.IsNewRow) return;
 
             idSeleccionado = Convert.ToInt32(fila.Cells["ID"].Value);
+
+            txtCodigo.Text = fila.Cells["Codigo"].Value.ToString();
             txtNombre.Text = fila.Cells["Nombre"].Value.ToString();
             txtCategoria.Text = fila.Cells["Categoria"].Value.ToString();
             txtPrecio.Text = fila.Cells["Precio"].Value.ToString();
@@ -108,6 +132,20 @@ namespace RegistroProductos
             if (idSeleccionado == 0)
             {
                 MessageBox.Show("No ha seleccionado ninguna fila.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtCodigo.Text))
+            {
+                MessageBox.Show("Escriba el codigo del producto.");
+                txtCodigo.Focus();
+                return;
+            }
+
+            if (ProductoDAO.ComprobarCodigo(txtCodigo.Text, idSeleccionado))
+            {
+                MessageBox.Show("Ya existe un producto con ese codigo.");
+                txtCodigo.Focus();
                 return;
             }
 
@@ -135,6 +173,7 @@ namespace RegistroProductos
             try
             {
                 Producto p = new Producto();
+                p.Codigo = txtCodigo.Text.Trim();
                 p.Nombre = txtNombre.Text.Trim();
                 p.Categoria = string.IsNullOrWhiteSpace(txtCategoria.Text) ? null : txtCategoria.Text.Trim();
                 p.Precio = precio;
@@ -156,7 +195,7 @@ namespace RegistroProductos
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if(idSeleccionado == 0)
+            if (idSeleccionado == 0)
             {
                 MessageBox.Show("Seleccione un producto de la lista.");
                 return;
@@ -164,7 +203,7 @@ namespace RegistroProductos
 
             DialogResult respuesta = MessageBox.Show(
                 "Seguro que desea eliminar el producto " + txtNombre.Text + "?",
-                "Confirmar.", 
+                "Confirmar.",
                 MessageBoxButtons.YesNo);
 
             if (respuesta == DialogResult.No) return;
@@ -178,10 +217,15 @@ namespace RegistroProductos
                 LimpiarCampos();
                 CargarProductos();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("No se pudo eliminar el producto: " + ex.Message);
             }
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

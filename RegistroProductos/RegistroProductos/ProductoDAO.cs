@@ -13,8 +13,9 @@ namespace RegistroProductos
             Conexion con = new Conexion();
             using (SqlConnection cn = con.ObtenerConexion())
             {
-                string sql = "INSERT INTO Productos(Nombre, Categoria, Precio, Stock) VALUES (@nombre, @categoria, @precio, @stock)";
+                string sql = "INSERT INTO Productos(Codigo, Nombre, Categoria, Precio, Stock) VALUES (@codigo, @nombre, @categoria, @precio, @stock)";
                 SqlCommand cmd = new SqlCommand(sql, cn);
+                cmd.Parameters.AddWithValue("@codigo", p.Codigo);
                 cmd.Parameters.AddWithValue("@nombre",p.Nombre);
                 cmd.Parameters.AddWithValue("@categoria", (object)p.Categoria ?? DBNull.Value);
                 cmd.Parameters.AddWithValue("@precio", p.Precio);
@@ -31,7 +32,7 @@ namespace RegistroProductos
             Conexion con = new Conexion();
             using (SqlConnection cn = con.ObtenerConexion())
             {
-                string sql = "SELECT ID, Nombre, Categoria, Precio, Stock, FechaRegistro FROM Productos WHERE Estado = 1 ORDER BY ID DESC";
+                string sql = "SELECT ID, Codigo, Nombre, Categoria, Precio, Stock, FechaRegistro FROM Productos WHERE Estado = 1 ORDER BY ID DESC";
                 SqlDataAdapter da = new SqlDataAdapter(sql, cn);
                 da.Fill(tabla);
             }
@@ -44,8 +45,9 @@ namespace RegistroProductos
             Conexion con = new Conexion();
             using (SqlConnection cn = con.ObtenerConexion())
             {
-                string sql = "UPDATE Productos SET Nombre = @nombre, Categoria = @categoria, Precio = @precio, Stock = @stock WHERE ID = @id";
+                string sql = "UPDATE Productos SET Codigo = @codigo, Nombre = @nombre, Categoria = @categoria, Precio = @precio, Stock = @stock WHERE ID = @id";
                 SqlCommand cmd = new SqlCommand(sql, cn);
+                cmd.Parameters.AddWithValue("@codigo", p.Codigo);
                 cmd.Parameters.AddWithValue("@nombre", p.Nombre);
                 cmd.Parameters.AddWithValue("@categoria", (object)p.Categoria ?? DBNull.Value);
                 cmd.Parameters.AddWithValue("@precio", p.Precio);
@@ -70,6 +72,54 @@ namespace RegistroProductos
                 cmd.ExecuteNonQuery();
             }
             
+        }
+
+        public static bool ComprobarCodigo(string codigo, int idExluir = 0)
+        {
+            Conexion con = new Conexion();
+            using(SqlConnection cn = con.ObtenerConexion())
+            {
+                string sql = "SELECT COUNT(*) FROM Productos WHERE Codigo = @codigo AND ID <> @id";
+                using(SqlCommand cmd = new SqlCommand(sql, cn))
+                {
+                    cmd.Parameters.AddWithValue("@codigo", codigo);
+                    cmd.Parameters.AddWithValue("@id", idExluir);
+                    cn.Open();
+                    return (int)cmd.ExecuteScalar() > 0;
+                }
+            }
+        }
+
+        public Producto BuscarPorCodigo(string codigo)
+        {
+            
+            Conexion con = new Conexion();
+            using(SqlConnection cn = con.ObtenerConexion())
+            {
+                string sql = "SELECT ID, Codigo, Nombre, Precio, Stock FROM Productos WHERE Codigo = @codigo AND Estado = 1";
+                using(SqlCommand cmd = new SqlCommand(sql, cn))
+                {
+                    cmd.Parameters.AddWithValue("@codigo", codigo);
+                    cn.Open();
+
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+
+                        if (dr.Read())
+                        {
+                            Producto p = new Producto();
+                            p.ID = dr.GetInt32(0);
+                            p.Codigo = dr.GetString(1);
+                            p.Nombre = dr.GetString(2);
+                            p.Precio = dr.GetDecimal(3);
+                            p.Stock = dr.GetInt32(4);
+                            return p;
+                        }
+                    }
+                }
+            }
+
+            return null;
         }
     }
 }

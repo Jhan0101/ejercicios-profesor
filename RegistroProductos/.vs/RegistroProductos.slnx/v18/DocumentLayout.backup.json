@@ -3,24 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\registroproductos\\frmfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\frmfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\frmfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\frmfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7C9CCE7-61DE-4476-BED8-5D5797352148}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\frmfactura.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\frmfactura.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\registroproductos\\frmregistroproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\frmregistroproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\itemfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\itemfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\seguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\frmregistroproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\frmregistroproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\registroproductos\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\usuariosession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\usuariosession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\facturadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\facturadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\estilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\estilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|c:\\users\\jhan\\desktop\\proyectos_c#\\registroproductos\\registroproductos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B340243-1C98-FECC-9FEB-DC96D0897AD8}|RegistroProductos\\RegistroProductos.csproj|solutionrelative:registroproductos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +86,232 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Producto.cs",
-              "RelativeDocumentMoniker": "RegistroProductos\\Producto.cs",
-              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Producto.cs",
-              "RelativeToolTip": "RegistroProductos\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T21:33:35.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Form1.cs",
-              "RelativeDocumentMoniker": "RegistroProductos\\Form1.cs",
-              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RegistroProductos\\Form1.cs [Dise\u00F1o]",
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmLogin.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RegistroProductos\\frmLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T21:30:57.512Z",
+              "WhenOpened": "2026-10-29T20:44:21.451Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Form1.cs",
-              "RelativeDocumentMoniker": "RegistroProductos\\Form1.cs",
-              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Form1.cs",
-              "RelativeToolTip": "RegistroProductos\\Form1.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFgAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "frmFactura.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmFactura.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\frmFactura.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmFactura.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RegistroProductos\\frmFactura.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T22:48:24.655Z",
+              "WhenOpened": "2026-10-30T02:23:40.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmFactura.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmFactura.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\frmFactura.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmFactura.cs",
+              "RelativeToolTip": "RegistroProductos\\frmFactura.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAGoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T02:33:44.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmLogin.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmLogin.cs",
+              "RelativeToolTip": "RegistroProductos\\frmLogin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T20:49:34.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmFactura.resx",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmFactura.resx",
+              "RelativeDocumentMoniker": "RegistroProductos\\frmFactura.resx",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmFactura.resx",
+              "RelativeToolTip": "RegistroProductos\\frmFactura.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-11-03T18:26:25.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmRegistroProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmRegistroProducto.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\frmRegistroProducto.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmRegistroProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RegistroProductos\\frmRegistroProducto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T21:30:57.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Seguridad.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Seguridad.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\Seguridad.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Seguridad.cs",
+              "RelativeToolTip": "RegistroProductos\\Seguridad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T19:58:56.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Program.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\Program.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Program.cs",
+              "RelativeToolTip": "RegistroProductos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T21:51:36.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemFactura.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\ItemFactura.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\ItemFactura.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\ItemFactura.cs",
+              "RelativeToolTip": "RegistroProductos\\ItemFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T00:33:42.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmRegistroProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmRegistroProducto.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\frmRegistroProducto.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmRegistroProducto.cs",
+              "RelativeToolTip": "RegistroProductos\\frmRegistroProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T22:48:24.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmMenu.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\frmMenu.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmMenu.cs",
+              "RelativeToolTip": "RegistroProductos\\frmMenu.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T15:07:29.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "frmMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmMenu.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\frmMenu.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\frmMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RegistroProductos\\frmMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T15:05:56.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuarioSession.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\UsuarioSession.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\UsuarioSession.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\UsuarioSession.cs",
+              "RelativeToolTip": "RegistroProductos\\UsuarioSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:30:42.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\UsuarioDAO.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\UsuarioDAO.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\UsuarioDAO.cs",
+              "RelativeToolTip": "RegistroProductos\\UsuarioDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T21:01:51.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ProductoDAO.cs",
               "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\ProductoDAO.cs",
               "RelativeDocumentMoniker": "RegistroProductos\\ProductoDAO.cs",
               "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\ProductoDAO.cs",
               "RelativeToolTip": "RegistroProductos\\ProductoDAO.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAYwEgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T22:04:20.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T22:04:20.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
+              "Title": "FacturaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\FacturaDAO.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\FacturaDAO.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\FacturaDAO.cs",
+              "RelativeToolTip": "RegistroProductos\\FacturaDAO.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAADcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T16:28:34.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Producto.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\Producto.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Producto.cs",
+              "RelativeToolTip": "RegistroProductos\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T21:33:35.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Estilo.cs",
+              "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Estilo.cs",
+              "RelativeDocumentMoniker": "RegistroProductos\\Estilo.cs",
+              "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Estilo.cs",
+              "RelativeToolTip": "RegistroProductos\\Estilo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:47:33.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Conexion.cs",
               "RelativeDocumentMoniker": "RegistroProductos\\Conexion.cs",
               "ToolTip": "C:\\Users\\Jhan\\Desktop\\proyectos_c#\\RegistroProductos\\RegistroProductos\\Conexion.cs",
               "RelativeToolTip": "RegistroProductos\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T21:44:24.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T21:44:24.953Z"
             }
           ]
         }
