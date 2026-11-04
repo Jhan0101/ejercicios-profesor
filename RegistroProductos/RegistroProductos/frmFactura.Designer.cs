@@ -1,4 +1,4 @@
-﻿namespace RegistroProductos
+namespace RegistroProductos
 {
     partial class frmFactura
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             txtCodigo = new TextBox();
             nuCantidad = new NumericUpDown();
             dgvCarrito = new DataGridView();
@@ -36,105 +37,275 @@
             btnAgregar = new Button();
             lblTotal = new Label();
             btnGuardar = new Button();
+            pnlEncabezado = new Panel();
+            lblTitulo = new Label();
+            pnlEntrada = new Panel();
+            tlpEntrada = new TableLayoutPanel();
+            pnlTabla = new Panel();
+            pnlTotal = new Panel();
+            tlpTotal = new TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)nuCantidad).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvCarrito).BeginInit();
+            pnlEncabezado.SuspendLayout();
+            pnlEntrada.SuspendLayout();
+            tlpEntrada.SuspendLayout();
+            pnlTabla.SuspendLayout();
+            pnlTotal.SuspendLayout();
+            tlpTotal.SuspendLayout();
             SuspendLayout();
             // 
             // txtCodigo
             // 
-            txtCodigo.Location = new Point(78, 99);
+            txtCodigo.BackColor = Color.FromArgb(51, 51, 55);
+            txtCodigo.BorderStyle = BorderStyle.FixedSingle;
+            txtCodigo.Dock = DockStyle.Fill;
+            txtCodigo.Font = new Font("Segoe UI", 11F);
+            txtCodigo.ForeColor = Color.FromArgb(241, 241, 241);
+            txtCodigo.Location = new Point(5, 25);
+            txtCodigo.Margin = new Padding(5, 0, 5, 0);
             txtCodigo.Name = "txtCodigo";
-            txtCodigo.Size = new Size(150, 31);
+            txtCodigo.Size = new Size(326, 37);
             txtCodigo.TabIndex = 0;
             // 
             // nuCantidad
             // 
-            nuCantidad.Location = new Point(282, 100);
+            nuCantidad.BackColor = Color.FromArgb(51, 51, 55);
+            nuCantidad.BorderStyle = BorderStyle.FixedSingle;
+            nuCantidad.Dock = DockStyle.Fill;
+            nuCantidad.Font = new Font("Segoe UI", 11F);
+            nuCantidad.ForeColor = Color.FromArgb(241, 241, 241);
+            nuCantidad.Location = new Point(341, 25);
+            nuCantidad.Margin = new Padding(5, 0, 5, 0);
+            nuCantidad.Maximum = new decimal(new int[] { 9999, 0, 0, 0 });
             nuCantidad.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             nuCantidad.Name = "nuCantidad";
-            nuCantidad.Size = new Size(180, 31);
+            nuCantidad.Size = new Size(230, 37);
             nuCantidad.TabIndex = 1;
             nuCantidad.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // dgvCarrito
             // 
-            dgvCarrito.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvCarrito.Location = new Point(71, 376);
+            dgvCarrito.AllowUserToAddRows = false;
+            dgvCarrito.AllowUserToDeleteRows = false;
+            dgvCarrito.AllowUserToResizeRows = false;
+            dgvCarrito.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvCarrito.BackgroundColor = Color.FromArgb(30, 30, 30);
+            dgvCarrito.BorderStyle = BorderStyle.None;
+            dgvCarrito.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgvCarrito.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            dgvCarrito.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dgvCarrito.ColumnHeadersHeight = 40;
+            dgvCarrito.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dgvCarrito.Dock = DockStyle.Fill;
+            dgvCarrito.EnableHeadersVisualStyles = false;
+            dgvCarrito.GridColor = Color.FromArgb(63, 63, 70);
+            dgvCarrito.Location = new Point(20, 15);
+            dgvCarrito.MultiSelect = false;
             dgvCarrito.Name = "dgvCarrito";
+            dgvCarrito.ReadOnly = true;
+            dgvCarrito.RowHeadersVisible = false;
             dgvCarrito.RowHeadersWidth = 62;
-            dgvCarrito.Size = new Size(876, 225);
+            dgvCarrito.RowTemplate.Height = 35;
+            dgvCarrito.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvCarrito.Size = new Size(960, 370);
             dgvCarrito.TabIndex = 2;
             // 
             // lblCodigo
             // 
-            lblCodigo.AutoSize = true;
-            lblCodigo.Location = new Point(78, 71);
+            lblCodigo.Dock = DockStyle.Fill;
+            lblCodigo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblCodigo.ForeColor = Color.FromArgb(160, 160, 160);
+            lblCodigo.Location = new Point(5, 0);
+            lblCodigo.Margin = new Padding(5, 0, 5, 0);
             lblCodigo.Name = "lblCodigo";
-            lblCodigo.Size = new Size(71, 25);
+            lblCodigo.Size = new Size(326, 25);
             lblCodigo.TabIndex = 3;
             lblCodigo.Text = "Codigo";
+            lblCodigo.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // lblCantidad
             // 
-            lblCantidad.AutoSize = true;
-            lblCantidad.Location = new Point(280, 69);
+            lblCantidad.Dock = DockStyle.Fill;
+            lblCantidad.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblCantidad.ForeColor = Color.FromArgb(160, 160, 160);
+            lblCantidad.Location = new Point(341, 0);
+            lblCantidad.Margin = new Padding(5, 0, 5, 0);
             lblCantidad.Name = "lblCantidad";
-            lblCantidad.Size = new Size(83, 25);
+            lblCantidad.Size = new Size(230, 25);
             lblCantidad.TabIndex = 4;
             lblCantidad.Text = "Cantidad";
+            lblCantidad.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(78, 172);
+            btnAgregar.BackColor = Color.FromArgb(33, 150, 243);
+            btnAgregar.Cursor = Cursors.Hand;
+            btnAgregar.Dock = DockStyle.Left;
+            btnAgregar.FlatAppearance.BorderSize = 0;
+            btnAgregar.FlatAppearance.MouseDownBackColor = Color.FromArgb(25, 118, 210);
+            btnAgregar.FlatAppearance.MouseOverBackColor = Color.FromArgb(66, 165, 245);
+            btnAgregar.FlatStyle = FlatStyle.Flat;
+            btnAgregar.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            btnAgregar.ForeColor = Color.White;
+            btnAgregar.Location = new Point(586, 25);
+            btnAgregar.Margin = new Padding(10, 0, 5, 0);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(112, 34);
+            btnAgregar.Size = new Size(140, 55);
             btnAgregar.TabIndex = 5;
             btnAgregar.Text = "Agregar";
-            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.UseVisualStyleBackColor = false;
             btnAgregar.Click += btnAgregar_Click;
             // 
             // lblTotal
             // 
-            lblTotal.AutoSize = true;
-            lblTotal.Font = new Font("Segoe UI", 15F);
-            lblTotal.Location = new Point(850, 332);
+            lblTotal.Dock = DockStyle.Fill;
+            lblTotal.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
+            lblTotal.ForeColor = Color.FromArgb(66, 165, 245);
+            lblTotal.Location = new Point(3, 0);
             lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(81, 41);
+            lblTotal.Size = new Size(794, 60);
             lblTotal.TabIndex = 6;
             lblTotal.Text = "Total";
+            lblTotal.TextAlign = ContentAlignment.MiddleRight;
             lblTotal.Click += lblTotal_Click;
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(282, 172);
+            btnGuardar.BackColor = Color.FromArgb(46, 125, 50);
+            btnGuardar.Cursor = Cursors.Hand;
+            btnGuardar.Dock = DockStyle.Fill;
+            btnGuardar.FlatAppearance.BorderSize = 0;
+            btnGuardar.FlatAppearance.MouseDownBackColor = Color.FromArgb(27, 94, 32);
+            btnGuardar.FlatAppearance.MouseOverBackColor = Color.FromArgb(56, 142, 60);
+            btnGuardar.FlatStyle = FlatStyle.Flat;
+            btnGuardar.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            btnGuardar.ForeColor = Color.White;
+            btnGuardar.Location = new Point(803, 3);
             btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(151, 86);
+            btnGuardar.Size = new Size(154, 54);
             btnGuardar.TabIndex = 7;
             btnGuardar.Text = "Guardar factura";
-            btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.UseVisualStyleBackColor = false;
             btnGuardar.Click += btnGuardar_Click;
+            // 
+            // pnlEncabezado
+            // 
+            pnlEncabezado.BackColor = Color.FromArgb(37, 37, 38);
+            pnlEncabezado.Controls.Add(lblTitulo);
+            pnlEncabezado.Dock = DockStyle.Top;
+            pnlEncabezado.Location = new Point(0, 0);
+            pnlEncabezado.Name = "pnlEncabezado";
+            pnlEncabezado.Size = new Size(1000, 70);
+            pnlEncabezado.TabIndex = 8;
+            // 
+            // lblTitulo
+            // 
+            lblTitulo.Dock = DockStyle.Fill;
+            lblTitulo.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            lblTitulo.ForeColor = Color.FromArgb(66, 165, 245);
+            lblTitulo.Location = new Point(0, 0);
+            lblTitulo.Name = "lblTitulo";
+            lblTitulo.Padding = new Padding(20, 0, 0, 0);
+            lblTitulo.Size = new Size(1000, 70);
+            lblTitulo.TabIndex = 0;
+            lblTitulo.Text = "Nueva factura";
+            lblTitulo.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pnlEntrada
+            // 
+            pnlEntrada.BackColor = Color.FromArgb(45, 45, 48);
+            pnlEntrada.Controls.Add(tlpEntrada);
+            pnlEntrada.Dock = DockStyle.Top;
+            pnlEntrada.Location = new Point(0, 70);
+            pnlEntrada.Name = "pnlEntrada";
+            pnlEntrada.Padding = new Padding(20, 10, 20, 10);
+            pnlEntrada.Size = new Size(1000, 100);
+            pnlEntrada.TabIndex = 9;
+            // 
+            // tlpEntrada
+            // 
+            tlpEntrada.ColumnCount = 3;
+            tlpEntrada.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 35F));
+            tlpEntrada.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tlpEntrada.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
+            tlpEntrada.Controls.Add(lblCodigo, 0, 0);
+            tlpEntrada.Controls.Add(txtCodigo, 0, 1);
+            tlpEntrada.Controls.Add(lblCantidad, 1, 0);
+            tlpEntrada.Controls.Add(nuCantidad, 1, 1);
+            tlpEntrada.Controls.Add(btnAgregar, 2, 1);
+            tlpEntrada.Dock = DockStyle.Fill;
+            tlpEntrada.Location = new Point(20, 10);
+            tlpEntrada.Name = "tlpEntrada";
+            tlpEntrada.RowCount = 2;
+            tlpEntrada.RowStyles.Add(new RowStyle(SizeType.Absolute, 25F));
+            tlpEntrada.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tlpEntrada.Size = new Size(960, 80);
+            tlpEntrada.TabIndex = 0;
+            // 
+            // pnlTabla
+            // 
+            pnlTabla.BackColor = Color.FromArgb(30, 30, 30);
+            pnlTabla.Controls.Add(dgvCarrito);
+            pnlTabla.Dock = DockStyle.Fill;
+            pnlTabla.Location = new Point(0, 170);
+            pnlTabla.Name = "pnlTabla";
+            pnlTabla.Padding = new Padding(20, 15, 20, 15);
+            pnlTabla.Size = new Size(1000, 400);
+            pnlTabla.TabIndex = 10;
+            // 
+            // pnlTotal
+            // 
+            pnlTotal.BackColor = Color.FromArgb(45, 45, 48);
+            pnlTotal.Controls.Add(tlpTotal);
+            pnlTotal.Dock = DockStyle.Bottom;
+            pnlTotal.Location = new Point(0, 570);
+            pnlTotal.Name = "pnlTotal";
+            pnlTotal.Padding = new Padding(20, 10, 20, 10);
+            pnlTotal.Size = new Size(1000, 80);
+            pnlTotal.TabIndex = 11;
+            // 
+            // tlpTotal
+            // 
+            tlpTotal.ColumnCount = 2;
+            tlpTotal.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tlpTotal.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 160F));
+            tlpTotal.Controls.Add(lblTotal, 0, 0);
+            tlpTotal.Controls.Add(btnGuardar, 1, 0);
+            tlpTotal.Dock = DockStyle.Fill;
+            tlpTotal.Location = new Point(20, 10);
+            tlpTotal.Name = "tlpTotal";
+            tlpTotal.RowCount = 1;
+            tlpTotal.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tlpTotal.Size = new Size(960, 60);
+            tlpTotal.TabIndex = 0;
             // 
             // frmFactura
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1135, 674);
-            Controls.Add(btnGuardar);
-            Controls.Add(lblTotal);
-            Controls.Add(btnAgregar);
-            Controls.Add(lblCantidad);
-            Controls.Add(lblCodigo);
-            Controls.Add(dgvCarrito);
-            Controls.Add(nuCantidad);
-            Controls.Add(txtCodigo);
+            BackColor = Color.FromArgb(30, 30, 30);
+            ClientSize = new Size(1000, 650);
+            Controls.Add(pnlTabla);
+            Controls.Add(pnlTotal);
+            Controls.Add(pnlEntrada);
+            Controls.Add(pnlEncabezado);
+            Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             KeyPreview = true;
+            MinimumSize = new Size(800, 500);
             Name = "frmFactura";
-            Text = "frmFactura";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Facturación";
             KeyDown += frmFactura_KeyDown;
             ((System.ComponentModel.ISupportInitialize)nuCantidad).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvCarrito).EndInit();
+            pnlEncabezado.ResumeLayout(false);
+            pnlEntrada.ResumeLayout(false);
+            tlpEntrada.ResumeLayout(false);
+            tlpEntrada.PerformLayout();
+            pnlTabla.ResumeLayout(false);
+            pnlTotal.ResumeLayout(false);
+            tlpTotal.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -147,5 +318,12 @@
         private Button btnAgregar;
         private Label lblTotal;
         private Button btnGuardar;
+        private Panel pnlEncabezado;
+        private Label lblTitulo;
+        private Panel pnlEntrada;
+        private TableLayoutPanel tlpEntrada;
+        private Panel pnlTabla;
+        private Panel pnlTotal;
+        private TableLayoutPanel tlpTotal;
     }
 }

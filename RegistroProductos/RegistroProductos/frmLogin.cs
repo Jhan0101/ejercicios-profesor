@@ -14,7 +14,7 @@ namespace RegistroProductos
         public frmLogin()
         {
             InitializeComponent();
-            
+
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
@@ -34,8 +34,13 @@ namespace RegistroProductos
             else
             {
                 Sesion = session;
-               this.DialogResult = DialogResult.OK;
+                this.DialogResult = DialogResult.OK;
             }
+
+        }
+
+        private void pnlTarjeta_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
