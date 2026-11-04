@@ -4,12 +4,14 @@ namespace RegistroProductos
 {
     public partial class frmRegistroProducto : Form
     {
+        private readonly UsuarioSession session;
         private int idSeleccionado = 0;
 
-        public frmRegistroProducto()
+        public frmRegistroProducto(UsuarioSession s)
         {
             InitializeComponent();
-
+            session = s;
+            AplicarPermisos();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -220,6 +222,20 @@ namespace RegistroProductos
             catch (Exception ex)
             {
                 MessageBox.Show("No se pudo eliminar el producto: " + ex.Message);
+            }
+        }
+
+        private void AplicarPermisos()
+        {
+            btnGuardar.Visible = false;
+            btnActualizar.Visible = false;
+            btnEliminar.Visible = false;
+            
+            if (session.Rol == "Administrador")
+            {
+                btnGuardar.Visible = true;
+                btnActualizar.Visible = true;
+                btnEliminar.Visible = true;
             }
         }
 

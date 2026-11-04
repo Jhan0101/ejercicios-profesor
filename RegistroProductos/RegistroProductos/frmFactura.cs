@@ -104,7 +104,7 @@ namespace RegistroProductos
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            
+
             if (carrito.Count == 0)
             {
                 MessageBox.Show("Agregue al menos un producto.");
@@ -134,9 +134,9 @@ namespace RegistroProductos
 
         private void frmFactura_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.F5)
+            if (e.KeyCode == Keys.F5)
             {
-                if(venta == null || venta.Count == 0)
+                if (venta == null || venta.Count == 0)
                 {
                     MessageBox.Show("Primero guarde una factura");
                     return;
@@ -157,8 +157,8 @@ namespace RegistroProductos
             factura.AppendLine(linea);
             factura.AppendLine($"{"CÓDIGO",-10}{"PRODUCTO",-24}{"CANT.",8}{"SUBTOTAL",14}");
             factura.AppendLine(linea);
-            
-            foreach(ItemFactura item in venta)
+
+            foreach (ItemFactura item in venta)
             {
                 factura.AppendLine($"{item.Codigo,-10}{item.Nombre,-24}{item.Cantidad,8}{item.SubTotal.ToString("C2", new CultureInfo("es-DO")),14}");
             }
@@ -185,6 +185,22 @@ namespace RegistroProductos
             string rutaArchivo = Path.Combine(carpeta, nombreArchivo);
 
             File.WriteAllText(rutaArchivo, contenido, Encoding.UTF8);
+        }
+
+        private void btnQuitar_Click(object sender, EventArgs e)
+        {
+            if (dgvCarrito.CurrentRow == null)
+            {
+                MessageBox.Show("Seleccione la fila que desea quitar primero.");
+                return;
+            }
+
+            ItemFactura item = dgvCarrito.CurrentRow.DataBoundItem as ItemFactura;
+            if (item!= null)
+            {
+                carrito.Remove(item);
+                ActualizarTotal();
+            }
         }
     }
 }

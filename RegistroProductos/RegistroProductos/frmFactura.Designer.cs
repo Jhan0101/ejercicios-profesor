@@ -41,7 +41,11 @@ namespace RegistroProductos
             lblTitulo = new Label();
             pnlEntrada = new Panel();
             tlpEntrada = new TableLayoutPanel();
+            flpAcciones = new FlowLayoutPanel();
+            btnQuitar = new Button();
             pnlTabla = new Panel();
+            tlpTabla = new TableLayoutPanel();
+            lblMensaje = new Label();
             pnlTotal = new Panel();
             tlpTotal = new TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)nuCantidad).BeginInit();
@@ -49,7 +53,9 @@ namespace RegistroProductos
             pnlEncabezado.SuspendLayout();
             pnlEntrada.SuspendLayout();
             tlpEntrada.SuspendLayout();
+            flpAcciones.SuspendLayout();
             pnlTabla.SuspendLayout();
+            tlpTabla.SuspendLayout();
             pnlTotal.SuspendLayout();
             tlpTotal.SuspendLayout();
             SuspendLayout();
@@ -99,7 +105,7 @@ namespace RegistroProductos
             dgvCarrito.Dock = DockStyle.Fill;
             dgvCarrito.EnableHeadersVisualStyles = false;
             dgvCarrito.GridColor = Color.FromArgb(63, 63, 70);
-            dgvCarrito.Location = new Point(20, 15);
+            dgvCarrito.Location = new Point(3, 3);
             dgvCarrito.MultiSelect = false;
             dgvCarrito.Name = "dgvCarrito";
             dgvCarrito.ReadOnly = true;
@@ -107,7 +113,7 @@ namespace RegistroProductos
             dgvCarrito.RowHeadersWidth = 62;
             dgvCarrito.RowTemplate.Height = 35;
             dgvCarrito.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvCarrito.Size = new Size(960, 370);
+            dgvCarrito.Size = new Size(954, 334);
             dgvCarrito.TabIndex = 2;
             // 
             // lblCodigo
@@ -140,17 +146,16 @@ namespace RegistroProductos
             // 
             btnAgregar.BackColor = Color.FromArgb(33, 150, 243);
             btnAgregar.Cursor = Cursors.Hand;
-            btnAgregar.Dock = DockStyle.Left;
             btnAgregar.FlatAppearance.BorderSize = 0;
             btnAgregar.FlatAppearance.MouseDownBackColor = Color.FromArgb(25, 118, 210);
             btnAgregar.FlatAppearance.MouseOverBackColor = Color.FromArgb(66, 165, 245);
             btnAgregar.FlatStyle = FlatStyle.Flat;
             btnAgregar.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             btnAgregar.ForeColor = Color.White;
-            btnAgregar.Location = new Point(586, 25);
-            btnAgregar.Margin = new Padding(10, 0, 5, 0);
+            btnAgregar.Location = new Point(0, 5);
+            btnAgregar.Margin = new Padding(0);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(140, 55);
+            btnAgregar.Size = new Size(140, 45);
             btnAgregar.TabIndex = 5;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = false;
@@ -232,7 +237,7 @@ namespace RegistroProductos
             tlpEntrada.Controls.Add(txtCodigo, 0, 1);
             tlpEntrada.Controls.Add(lblCantidad, 1, 0);
             tlpEntrada.Controls.Add(nuCantidad, 1, 1);
-            tlpEntrada.Controls.Add(btnAgregar, 2, 1);
+            tlpEntrada.Controls.Add(flpAcciones, 2, 1);
             tlpEntrada.Dock = DockStyle.Fill;
             tlpEntrada.Location = new Point(20, 10);
             tlpEntrada.Name = "tlpEntrada";
@@ -242,16 +247,73 @@ namespace RegistroProductos
             tlpEntrada.Size = new Size(960, 80);
             tlpEntrada.TabIndex = 0;
             // 
+            // flpAcciones
+            // 
+            flpAcciones.Controls.Add(btnAgregar);
+            flpAcciones.Controls.Add(btnQuitar);
+            flpAcciones.Dock = DockStyle.Fill;
+            flpAcciones.Location = new Point(579, 28);
+            flpAcciones.Name = "flpAcciones";
+            flpAcciones.Padding = new Padding(0, 5, 0, 0);
+            flpAcciones.Size = new Size(378, 49);
+            flpAcciones.TabIndex = 0;
+            flpAcciones.WrapContents = false;
+            // 
+            // btnQuitar
+            // 
+            btnQuitar.BackColor = Color.FromArgb(198, 40, 40);
+            btnQuitar.Cursor = Cursors.Hand;
+            btnQuitar.FlatAppearance.BorderSize = 0;
+            btnQuitar.FlatAppearance.MouseDownBackColor = Color.FromArgb(183, 28, 28);
+            btnQuitar.FlatAppearance.MouseOverBackColor = Color.FromArgb(229, 57, 53);
+            btnQuitar.FlatStyle = FlatStyle.Flat;
+            btnQuitar.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            btnQuitar.ForeColor = Color.White;
+            btnQuitar.Location = new Point(150, 5);
+            btnQuitar.Margin = new Padding(10, 0, 0, 0);
+            btnQuitar.Name = "btnQuitar";
+            btnQuitar.Size = new Size(140, 45);
+            btnQuitar.TabIndex = 4;
+            btnQuitar.Text = "Quitar";
+            btnQuitar.UseVisualStyleBackColor = false;
+            btnQuitar.Click += btnQuitar_Click;
+            // 
             // pnlTabla
             // 
             pnlTabla.BackColor = Color.FromArgb(30, 30, 30);
-            pnlTabla.Controls.Add(dgvCarrito);
+            pnlTabla.Controls.Add(tlpTabla);
             pnlTabla.Dock = DockStyle.Fill;
             pnlTabla.Location = new Point(0, 170);
             pnlTabla.Name = "pnlTabla";
             pnlTabla.Padding = new Padding(20, 15, 20, 15);
             pnlTabla.Size = new Size(1000, 400);
             pnlTabla.TabIndex = 10;
+            // 
+            // tlpTabla
+            // 
+            tlpTabla.ColumnCount = 1;
+            tlpTabla.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tlpTabla.Controls.Add(dgvCarrito, 0, 0);
+            tlpTabla.Controls.Add(lblMensaje, 0, 1);
+            tlpTabla.Dock = DockStyle.Fill;
+            tlpTabla.Location = new Point(20, 15);
+            tlpTabla.Name = "tlpTabla";
+            tlpTabla.RowCount = 2;
+            tlpTabla.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tlpTabla.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
+            tlpTabla.Size = new Size(960, 370);
+            tlpTabla.TabIndex = 0;
+            // 
+            // lblMensaje
+            // 
+            lblMensaje.Dock = DockStyle.Fill;
+            lblMensaje.ForeColor = Color.FromArgb(160, 160, 160);
+            lblMensaje.Location = new Point(3, 340);
+            lblMensaje.Name = "lblMensaje";
+            lblMensaje.Size = new Size(954, 30);
+            lblMensaje.TabIndex = 3;
+            lblMensaje.Text = "Presione F5 para guardar la factura en txt.";
+            lblMensaje.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // pnlTotal
             // 
@@ -302,7 +364,9 @@ namespace RegistroProductos
             pnlEntrada.ResumeLayout(false);
             tlpEntrada.ResumeLayout(false);
             tlpEntrada.PerformLayout();
+            flpAcciones.ResumeLayout(false);
             pnlTabla.ResumeLayout(false);
+            tlpTabla.ResumeLayout(false);
             pnlTotal.ResumeLayout(false);
             tlpTotal.ResumeLayout(false);
             ResumeLayout(false);
@@ -322,8 +386,12 @@ namespace RegistroProductos
         private Label lblTitulo;
         private Panel pnlEntrada;
         private TableLayoutPanel tlpEntrada;
+        private FlowLayoutPanel flpAcciones;
         private Panel pnlTabla;
+        private TableLayoutPanel tlpTabla;
         private Panel pnlTotal;
         private TableLayoutPanel tlpTotal;
+        private Label lblMensaje;
+        private Button btnQuitar;
     }
 }

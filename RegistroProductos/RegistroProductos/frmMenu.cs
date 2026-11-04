@@ -11,6 +11,8 @@ namespace RegistroProductos
     public partial class frmMenu : Form
     {
         private readonly UsuarioSession sesion;
+        frmLogin login = new frmLogin();
+
 
         public frmMenu(UsuarioSession s)
         {
@@ -21,7 +23,7 @@ namespace RegistroProductos
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-            using (frmRegistroProducto f = new frmRegistroProducto())
+            using (frmRegistroProducto f = new frmRegistroProducto(sesion))
             {
                 f.ShowDialog();
             }
@@ -49,6 +51,7 @@ namespace RegistroProductos
             else if(sesion.Rol == "Cajero")
             {
                 btnFacturas.Visible = true;
+                btnProductos.Visible = true;
             }
         }
     }
