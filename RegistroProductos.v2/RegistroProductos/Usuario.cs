@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace RegistroProductos
+{
+    public class Usuario
+    {
+       public int ID { get; set; }
+       public string NombreUsuario { get; set; }
+       public string ClaveHash { get; set; }
+       public string Rol { get; set; }
+       public string Turno { get; set; }
+    }
+}
