@@ -59,3 +59,4 @@ C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug
 C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmRegistroProducto.resources
 C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmCrearCajero.resources
 C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmCLientes.resources
+C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmReportes.resources

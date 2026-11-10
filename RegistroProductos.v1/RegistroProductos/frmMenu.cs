@@ -17,6 +17,7 @@ namespace RegistroProductos
         public frmMenu(UsuarioSession s)
         {
             InitializeComponent();
+            Estilo.Aplicar(this);
             sesion = s;
             AplicarPermisos();
         }
@@ -59,7 +60,15 @@ namespace RegistroProductos
 
         private void btnCrearCajero_Click(object sender, EventArgs e)
         {
-            using(frmCrearCajero f = new frmCrearCajero(sesion))
+            using (frmCrearCajero f = new frmCrearCajero(sesion))
+            {
+                f.ShowDialog();
+            }
+        }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            using(frmReportes f = new frmReportes())
             {
                 f.ShowDialog();
             }

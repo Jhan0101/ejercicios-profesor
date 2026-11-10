@@ -25,6 +25,11 @@ namespace RegistroProductos
         public frmFactura(UsuarioSession s)
         {
             InitializeComponent();
+            Estilo.Aplicar(this);
+            Estilo.AplicarFactura(this, pnlEncabezado,
+                lblTitulo, lblMonto, lblDevuelta1, lblDevuelta2,
+                nuMontoPagado, cmbTipoPago, cmbClientes, btnNuevoCliente, dgvCarrito,
+                lblTipoPagoUI, lblClienteUI);
             CargarCliente();
             session = s;
             usuarioId = session.UsuarioID;
@@ -157,6 +162,7 @@ namespace RegistroProductos
                 int id = dao.GuardarFactura(f);
                 ultimaFactura = f;
                 MessageBox.Show($"Factura guardada.");
+
                 numeroFactura = id;
                 fechaVenta = DateTime.Now;
                 venta = carrito.ToList();

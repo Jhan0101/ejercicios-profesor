@@ -14,6 +14,7 @@ namespace RegistroProductos
         public frmCrearCajero(UsuarioSession s)
         {
             InitializeComponent();
+            Estilo.Aplicar(this);
             session = s;
         }
 

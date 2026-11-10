@@ -14,6 +14,7 @@ namespace RegistroProductos
         public frmLogin()
         {
             InitializeComponent();
+            Estilo.Aplicar(this);
 
         }
 

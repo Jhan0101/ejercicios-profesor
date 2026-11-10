@@ -13,6 +13,7 @@ namespace RegistroProductos
         public frmCLientes()
         {
             InitializeComponent();
+            Estilo.Aplicar(this);
         }
 
         private void frmCLientes_Load(object sender, EventArgs e)

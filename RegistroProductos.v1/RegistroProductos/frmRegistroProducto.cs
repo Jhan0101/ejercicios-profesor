@@ -10,6 +10,7 @@ namespace RegistroProductos
         public frmRegistroProducto(UsuarioSession s)
         {
             InitializeComponent();
+            Estilo.Aplicar(this);
             session = s;
             AplicarPermisos();
         }
