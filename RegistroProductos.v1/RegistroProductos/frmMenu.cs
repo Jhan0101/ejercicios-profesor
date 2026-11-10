@@ -44,12 +44,14 @@ namespace RegistroProductos
             btnProductos.Visible = false;
             btnFacturas.Visible = false;
             btnCrearCajero.Visible = false;
+            btnReportes.Visible = false;
 
             if (sesion.Rol == "Administrador")
             {
                 btnProductos.Visible = true;
                 btnFacturas.Visible = true;
                 btnCrearCajero.Visible = true;
+                btnReportes.Visible = true;
             }
             else if (sesion.Rol == "Cajero")
             {
