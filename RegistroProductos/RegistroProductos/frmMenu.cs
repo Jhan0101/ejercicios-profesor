@@ -17,6 +17,7 @@ namespace RegistroProductos
         public frmMenu(UsuarioSession s)
         {
             InitializeComponent();
+            Estilo.Aplicar(this);
             sesion = s;
             AplicarPermisos();
         }
@@ -27,12 +28,12 @@ namespace RegistroProductos
             {
                 f.ShowDialog();
             }
-            
+
         }
 
         private void btnFacturas_Click(object sender, EventArgs e)
         {
-            using(frmFactura f = new frmFactura(sesion.UsuarioID))
+            using (frmFactura f = new frmFactura(sesion))
             {
                 f.ShowDialog();
             }
@@ -42,16 +43,36 @@ namespace RegistroProductos
         {
             btnProductos.Visible = false;
             btnFacturas.Visible = false;
+            btnCrearCajero.Visible = false;
+            btnReportes.Visible = false;
 
-            if(sesion.Rol == "Administrador")
+            if (sesion.Rol == "Administrador")
             {
                 btnProductos.Visible = true;
                 btnFacturas.Visible = true;
+                btnCrearCajero.Visible = true;
+                btnReportes.Visible = true;
             }
-            else if(sesion.Rol == "Cajero")
+            else if (sesion.Rol == "Cajero")
             {
                 btnFacturas.Visible = true;
                 btnProductos.Visible = true;
+            }
+        }
+
+        private void btnCrearCajero_Click(object sender, EventArgs e)
+        {
+            using (frmCrearCajero f = new frmCrearCajero(sesion))
+            {
+                f.ShowDialog();
+            }
+        }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            using(frmReportes f = new frmReportes())
+            {
+                f.ShowDialog();
             }
         }
     }

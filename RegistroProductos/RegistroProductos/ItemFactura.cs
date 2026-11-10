@@ -12,5 +12,7 @@ namespace RegistroProductos
         public decimal Precio { get; set; }
         public int Cantidad { get; set; }
         public decimal SubTotal => Cantidad * Precio;
+        public bool LlevaItbis { get; set; }
+        public decimal Itbis => LlevaItbis ? SubTotal * 0.18m : 0m;
     }
 }

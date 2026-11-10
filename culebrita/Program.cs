@@ -77,17 +77,23 @@ namespace JuegoSnake
             Console.SetCursorPosition(LimiteSuperior.X + (LimiteInferior.X / 2) - 12,
                 LimiteSuperior.Y + (LimiteInferior.Y / 2) - 4);
             Console.Write("J U E G O   S N A K E");
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.SetCursorPosition(LimiteSuperior.X + (LimiteInferior.X / 2) - 8,
                 LimiteSuperior.Y + (LimiteInferior.Y / 2) - 2);
             Console.Write("Enter - JUGAR");
-            Console.SetCursorPosition(LimiteSuperior.X + (LimiteInferior.X / 2) - 8,
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.SetCursorPosition(LimiteSuperior.X + (LimiteInferior.X / 2) - 12,
                 LimiteSuperior.Y + (LimiteInferior.Y / 2) - 1);
+            Console.Write("SpaceBar - Modo Dificil");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.SetCursorPosition(LimiteSuperior.X + (LimiteInferior.X / 2) - 8,
+                LimiteSuperior.Y + (LimiteInferior.Y / 2) + 1);
             Console.Write("Esc - SALIR");
 
             SnakeC.MoverMenu();
         }
 
-        public void Teclado(ref bool ejecucion, ref bool jugar, Snake snake)
+        public void Teclado(ref bool ejecución, ref bool jugar, Snake snake, ref bool dificil)
         {
             if (Console.KeyAvailable)
             {
@@ -95,13 +101,22 @@ namespace JuegoSnake
                 if (tecla.Key == ConsoleKey.Enter)
                 {
                     jugar = true;
+                    dificil = false;
                     Console.Clear();
                     DibujarMarco();
                     snake.Init();
                 }
                 if (tecla.Key == ConsoleKey.Escape)
                 {
-                    ejecucion = false;
+                    ejecución = false;
+                }
+                if (tecla.Key == ConsoleKey.Spacebar)
+                {
+                    jugar = true;
+                    dificil = true;
+                    Console.Clear();
+                    DibujarMarco();
+                    snake.Init();
                 }
             }
         }
@@ -113,7 +128,7 @@ namespace JuegoSnake
             Console.SetCursorPosition(LimiteSuperior.X + (LimiteInferior.X / 2) - 10,
                 LimiteSuperior.Y + (LimiteInferior.Y / 2) - 2);
             Console.Write(text);
-            Thread.Sleep(3000);
+            Thread.Sleep(1000);
             Console.Clear();
             DibujarMarco();
         }
@@ -133,9 +148,11 @@ namespace JuegoSnake
         private Direccion _direccion;
         public Comida ComidaC { get; set; }
         private bool _comiendo;
+        private bool _chocoPared;
         public int Puntaje { get; set; }
         public int PuntajeMaximo { get; set; }
         public Point PosicionInicial { get; set; }
+        public bool Dificil { get; set; }
 
         public Snake(Point posicion, ConsoleColor colorCabeza, ConsoleColor colorCuerpo,
             Ventana ventana, Comida comida)
@@ -155,9 +172,10 @@ namespace JuegoSnake
 
         public void Init()
         {
+            _chocoPared = false;
             Cuerpo.Clear();
             Cabeza = PosicionInicial;
-            IniciarCuerpo(2);
+            IniciarCuerpo(4);
             Vivo = true;
             _direccion = Direccion.Derecha;
             ComidaC.GenerarComida(this);
@@ -182,7 +200,7 @@ namespace JuegoSnake
             MoverCabeza();
             MoverCuerpo(cabezaAnterior);
             ColisionesComida();
-            if (ColisionesCuerpo())
+            if (ColisionesCuerpo() || _chocoPared)
             {
                 Muerte();
                 ventanaC.GameOver("G A M E  O V E R");
@@ -267,6 +285,36 @@ namespace JuegoSnake
 
         private void ColisionesMarco()
         {
+
+
+            if (Cabeza.X <= ventanaC.LimiteSuperior.X && Dificil)
+            {
+                _chocoPared = true;
+                Vivo = false;
+                return;
+            }
+
+            if (Cabeza.X >= ventanaC.LimiteInferior.X && Dificil)
+            {
+                _chocoPared = true;
+                Vivo = false;
+                return;
+            }
+
+            if (Cabeza.Y <= ventanaC.LimiteSuperior.Y && Dificil)
+            {
+                _chocoPared = true;
+                Vivo = false;
+                return;
+            }
+
+            if (Cabeza.Y >= ventanaC.LimiteInferior.Y && Dificil)
+            {
+                _chocoPared = true;
+                Vivo = false;
+                return;
+            }
+
             if (Cabeza.X <= ventanaC.LimiteSuperior.X)
                 Cabeza = new Point(ventanaC.LimiteInferior.X - 1, Cabeza.Y);
             if (Cabeza.X >= ventanaC.LimiteInferior.X)
@@ -298,7 +346,7 @@ namespace JuegoSnake
                 if (item == Cabeza)
                     continue;
                 Console.SetCursorPosition(item.X, item.Y);
-                Console.Write("░");
+                Console.Write("▒");
                 Thread.Sleep(120);
             }
         }
@@ -352,8 +400,8 @@ namespace JuegoSnake
             {
                 if ((x == item.X && y == item.Y) || (x == snake.Cabeza.X && y == snake.Cabeza.Y))
                 {
-                    if (GenerarComida(snake)) ;
-                    return true;
+                    if (GenerarComida(snake))
+                        return true;
                 }
             }
 
@@ -372,26 +420,31 @@ class Program
         Snake snake;
         Comida comida;
         bool jugar = false;
-        bool ejecucion = true;
+        bool ejecución = true;
+        bool dificil = false;
+
 
         void Iniciar()
         {
-            ventana = new Ventana("Culebrita", 65, 20, ConsoleColor.Black, ConsoleColor.White,
-            new Point(5, 3), new Point(58, 18));
+            ventana = new Ventana("Snake", 65, 25, ConsoleColor.Black, ConsoleColor.DarkBlue,
+            new Point(5, 3), new Point(58, 20));
             ventana.DibujarMarco();
             comida = new Comida(ConsoleColor.Red, ventana);
-            snake = new Snake(new Point(20, 9), ConsoleColor.Green, ConsoleColor.White, ventana, comida);
+            snake = new Snake(new Point(20, 9), ConsoleColor.Green, ConsoleColor.DarkGreen, ventana, comida);
 
         }
 
         void Game()
         {
-            while (ejecucion)
+            while (ejecución)
             {
                 ventana.Menu();
-                ventana.Teclado(ref ejecucion, ref jugar, snake);
+                ventana.Teclado(ref ejecución, ref jugar, snake, ref dificil);
+                int pausa = dificil ? 50 : 100;
+                snake.Dificil = dificil;
                 while (jugar)
                 {
+
                     snake.Infomacion(0, 34);
                     snake.Mover();
                     if (!snake.Vivo)
@@ -399,7 +452,7 @@ class Program
                         jugar = false;
                         snake.Puntaje = 0;
                     }
-                    Thread.Sleep(100);
+                    Thread.Sleep(pausa);
                 }
                 Thread.Sleep(100);
             }

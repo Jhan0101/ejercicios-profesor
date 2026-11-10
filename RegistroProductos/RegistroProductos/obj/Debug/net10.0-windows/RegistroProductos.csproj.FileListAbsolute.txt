@@ -57,5 +57,6 @@ C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug
 C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmFactura.resources
 C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmMenu.resources
 C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmRegistroProducto.resources
-C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\bin\Debug\net10.0-windows\MaterialSkin.dll
-C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\bin\Debug\net10.0-windows\ReaLTaiizor.dll
+C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmCrearCajero.resources
+C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmCLientes.resources
+C:\Users\Jhan\Desktop\proyectos_c#\RegistroProductos\RegistroProductos\obj\Debug\net10.0-windows\RegistroProductos.frmReportes.resources

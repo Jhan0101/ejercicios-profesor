@@ -14,6 +14,7 @@ namespace RegistroProductos
         public frmLogin()
         {
             InitializeComponent();
+            Estilo.Aplicar(this);
 
         }
 
@@ -33,6 +34,11 @@ namespace RegistroProductos
             }
             else
             {
+                if (session.Rol == "Cajero" && !Seguridad.EstaEnTurno(session.Turno, DateTime.Now.TimeOfDay))
+                {
+                    MessageBox.Show("No puede ingresar fuera de turno.");
+                    return;
+                }
                 Sesion = session;
                 this.DialogResult = DialogResult.OK;
             }

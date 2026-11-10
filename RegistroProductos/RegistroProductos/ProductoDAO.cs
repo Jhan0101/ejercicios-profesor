@@ -13,13 +13,14 @@ namespace RegistroProductos
             Conexion con = new Conexion();
             using (SqlConnection cn = con.ObtenerConexion())
             {
-                string sql = "INSERT INTO Productos(Codigo, Nombre, Categoria, Precio, Stock) VALUES (@codigo, @nombre, @categoria, @precio, @stock)";
+                string sql = "INSERT INTO Productos(Codigo, Nombre, Categoria, Precio, Stock, LlevaItbis) VALUES (@codigo, @nombre, @categoria, @precio, @stock, @itbis)";
                 SqlCommand cmd = new SqlCommand(sql, cn);
                 cmd.Parameters.AddWithValue("@codigo", p.Codigo);
                 cmd.Parameters.AddWithValue("@nombre",p.Nombre);
                 cmd.Parameters.AddWithValue("@categoria", (object)p.Categoria ?? DBNull.Value);
                 cmd.Parameters.AddWithValue("@precio", p.Precio);
                 cmd.Parameters.AddWithValue("@stock", p.Stock);
+                cmd.Parameters.AddWithValue("@itbis", p.LlevaItbis);
 
                 cn.Open();
                 cmd.ExecuteNonQuery();
@@ -32,7 +33,7 @@ namespace RegistroProductos
             Conexion con = new Conexion();
             using (SqlConnection cn = con.ObtenerConexion())
             {
-                string sql = "SELECT ID, Codigo, Nombre, Categoria, Precio, Stock, FechaRegistro FROM Productos WHERE Estado = 1 ORDER BY ID DESC";
+                string sql = "SELECT ID, Codigo, Nombre, Categoria, Precio, Stock, FechaRegistro, LlevaItbis FROM Productos WHERE Estado = 1 ORDER BY ID DESC";
                 SqlDataAdapter da = new SqlDataAdapter(sql, cn);
                 da.Fill(tabla);
             }
@@ -45,7 +46,7 @@ namespace RegistroProductos
             Conexion con = new Conexion();
             using (SqlConnection cn = con.ObtenerConexion())
             {
-                string sql = "UPDATE Productos SET Codigo = @codigo, Nombre = @nombre, Categoria = @categoria, Precio = @precio, Stock = @stock WHERE ID = @id";
+                string sql = "UPDATE Productos SET Codigo = @codigo, Nombre = @nombre, Categoria = @categoria, Precio = @precio, Stock = @stock, LlevaItbis = @itbis WHERE ID = @id";
                 SqlCommand cmd = new SqlCommand(sql, cn);
                 cmd.Parameters.AddWithValue("@codigo", p.Codigo);
                 cmd.Parameters.AddWithValue("@nombre", p.Nombre);
@@ -53,6 +54,7 @@ namespace RegistroProductos
                 cmd.Parameters.AddWithValue("@precio", p.Precio);
                 cmd.Parameters.AddWithValue("@stock", p.Stock);
                 cmd.Parameters.AddWithValue("@id", p.ID);
+                cmd.Parameters.AddWithValue("@itbis", p.LlevaItbis);
 
                 cn.Open();
                 cmd.ExecuteNonQuery();
@@ -96,7 +98,7 @@ namespace RegistroProductos
             Conexion con = new Conexion();
             using(SqlConnection cn = con.ObtenerConexion())
             {
-                string sql = "SELECT ID, Codigo, Nombre, Precio, Stock FROM Productos WHERE Codigo = @codigo AND Estado = 1";
+                string sql = "SELECT ID, Codigo, Nombre, Precio, Stock, LlevaItbis FROM Productos WHERE Codigo = @codigo AND Estado = 1";
                 using(SqlCommand cmd = new SqlCommand(sql, cn))
                 {
                     cmd.Parameters.AddWithValue("@codigo", codigo);
@@ -113,6 +115,7 @@ namespace RegistroProductos
                             p.Nombre = dr.GetString(2);
                             p.Precio = dr.GetDecimal(3);
                             p.Stock = dr.GetInt32(4);
+                            p.LlevaItbis = dr.GetBoolean(5);
                             return p;
                         }
                     }

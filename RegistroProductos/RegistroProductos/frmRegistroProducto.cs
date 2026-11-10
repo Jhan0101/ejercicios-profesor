@@ -10,6 +10,7 @@ namespace RegistroProductos
         public frmRegistroProducto(UsuarioSession s)
         {
             InitializeComponent();
+            Estilo.Aplicar(this);
             session = s;
             AplicarPermisos();
         }
@@ -74,6 +75,7 @@ namespace RegistroProductos
                 p.Categoria = string.IsNullOrWhiteSpace(txtCategoria.Text) ? null : txtCategoria.Text.Trim();
                 p.Precio = precio;
                 p.Stock = stock;
+                p.LlevaItbis = chkLlevaItbis.Checked;
 
                 ProductoDAO dao = new ProductoDAO();
                 dao.InsertarProducto(p);
@@ -93,8 +95,10 @@ namespace RegistroProductos
             txtCategoria.Text = "";
             txtPrecio.Text = "";
             txtStock.Text = "";
-            txtNombre.Focus();
+            txtCodigo.Focus();
             idSeleccionado = 0;
+            chkLlevaItbis.Checked = true;
+            
         }
 
         private void CargarProductos()
@@ -127,6 +131,7 @@ namespace RegistroProductos
             txtCategoria.Text = fila.Cells["Categoria"].Value.ToString();
             txtPrecio.Text = fila.Cells["Precio"].Value.ToString();
             txtStock.Text = fila.Cells["Stock"].Value.ToString();
+            chkLlevaItbis.Checked = Convert.ToBoolean(fila.Cells["LlevaItbis"].Value);
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)
@@ -181,6 +186,7 @@ namespace RegistroProductos
                 p.Precio = precio;
                 p.Stock = stock;
                 p.ID = idSeleccionado;
+                p.LlevaItbis = chkLlevaItbis.Checked;
 
                 ProductoDAO dao = new ProductoDAO();
                 dao.ActualizarProductos(p);
@@ -230,12 +236,14 @@ namespace RegistroProductos
             btnGuardar.Visible = false;
             btnActualizar.Visible = false;
             btnEliminar.Visible = false;
+            chkLlevaItbis.Enabled = false;
             
             if (session.Rol == "Administrador")
             {
                 btnGuardar.Visible = true;
                 btnActualizar.Visible = true;
                 btnEliminar.Visible = true;
+                chkLlevaItbis.Enabled = true;
             }
         }
 

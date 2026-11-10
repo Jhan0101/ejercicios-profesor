@@ -14,7 +14,7 @@ namespace RegistroProductos
             Conexion con = new Conexion();
             using (SqlConnection cn = con.ObtenerConexion())
             {
-                string sql = "SELECT ID, Rol FROM Usuarios WHERE NombreUsuario = @usuario AND ClaveHash = @hash";
+                string sql = "SELECT ID, NombreUsuario, Rol, Turno FROM Usuarios WHERE NombreUsuario = @usuario AND ClaveHash = @hash";
                 using (SqlCommand cmd = new SqlCommand(sql, cn))
                 {
                     cmd.Parameters.AddWithValue("@usuario", usuario);
@@ -27,7 +27,7 @@ namespace RegistroProductos
                        
                         if (dr.Read())
                         {
-                            return new UsuarioSession { UsuarioID = dr.GetInt32(0),Rol = dr.GetString(1) };
+                            return new UsuarioSession { UsuarioID = dr.GetInt32(0),NombreUsuario = dr.GetString(1), Rol = dr.GetString(2), Turno = dr.GetString(3) };
                           
                         }
                     }
@@ -36,5 +36,24 @@ namespace RegistroProductos
             return null;
         }
 
+        public void CrearUsuario(Usuario usuario)
+        {
+            Conexion con = new Conexion();
+            using(SqlConnection cn = con.ObtenerConexion())
+            {
+                string sql = "INSERT INTO Usuarios(NombreUsuario, ClaveHash, Rol, Turno) VALUES (@nombreUsuario, @claveHash, @rol, @turno)";
+
+                using (SqlCommand cmd = new SqlCommand(sql, cn))
+                { 
+                    cmd.Parameters.AddWithValue("@nombreUsuario", usuario.NombreUsuario);
+                    cmd.Parameters.AddWithValue("@claveHash", usuario.ClaveHash);
+                    cmd.Parameters.AddWithValue("@rol", usuario.Rol);
+                    cmd.Parameters.AddWithValue("@turno", usuario.Turno);
+
+                    cn.Open();
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

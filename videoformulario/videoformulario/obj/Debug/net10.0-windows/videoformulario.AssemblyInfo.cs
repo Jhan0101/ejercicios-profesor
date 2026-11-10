@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("videoformulario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ce6329865068ab5e465d8493737a8c04579f056")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86b788f824e3591a66c70bc00790d3c9c8e509fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("videoformulario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("videoformulario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,6 +13,7 @@ namespace RegistroProductos
        public decimal Precio { get; set; }
        public int Stock { get; set; }
        public DateTime FechaRegistro { get; set; }
+       public bool LlevaItbis { get; set; }
 
     }
 }

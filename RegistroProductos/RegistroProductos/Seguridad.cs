@@ -15,5 +15,22 @@ namespace RegistroProductos
 
             return Convert.ToHexString(bt2);
         }
+
+        public static bool EstaEnTurno(string turno, TimeSpan hora)
+        {
+            if (turno == "Dia")
+            {
+                return hora >= new TimeSpan(6, 0, 0) && hora < new TimeSpan(14, 0, 0);
+            }
+            if (turno == "Tarde")
+            {
+                return hora >= new TimeSpan(14, 0, 0) && hora < new TimeSpan(22, 0, 0);
+            }
+            if (turno == "Noche")
+            {
+                return hora >= new TimeSpan(22, 0, 0) || hora < new TimeSpan(6, 0, 0);
+            }
+            return false;
+        }
     }
 }
