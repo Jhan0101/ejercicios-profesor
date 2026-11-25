@@ -1,0 +1,14 @@
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\obj\Debug\net10.0\Ejemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\obj\Debug\net10.0\Ejemplo.AssemblyInfoInputs.cache
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\obj\Debug\net10.0\Ejemplo.AssemblyInfo.cs
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\obj\Debug\net10.0\Ejemplo.csproj.CoreCompileInputs.cache
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\bin\Debug\net10.0\Ejemplo.exe
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\bin\Debug\net10.0\Ejemplo.deps.json
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\bin\Debug\net10.0\Ejemplo.runtimeconfig.json
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\bin\Debug\net10.0\Ejemplo.dll
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\bin\Debug\net10.0\Ejemplo.pdb
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\obj\Debug\net10.0\Ejemplo.dll
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\obj\Debug\net10.0\refint\Ejemplo.dll
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\obj\Debug\net10.0\Ejemplo.pdb
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\obj\Debug\net10.0\Ejemplo.genruntimeconfig.cache
+C:\Users\Jhan\Desktop\Tareas\Programacion\Ejemplo\Ejemplo\obj\Debug\net10.0\ref\Ejemplo.dll
