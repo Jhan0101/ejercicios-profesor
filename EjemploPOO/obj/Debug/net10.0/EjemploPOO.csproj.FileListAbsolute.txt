@@ -1,0 +1,15 @@
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\bin\Debug\net10.0\EjemploPOO.exe
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\bin\Debug\net10.0\EjemploPOO.deps.json
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\bin\Debug\net10.0\EjemploPOO.runtimeconfig.json
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\bin\Debug\net10.0\EjemploPOO.dll
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\bin\Debug\net10.0\EjemploPOO.pdb
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\EjemploPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\EjemploPOO.AssemblyInfoInputs.cache
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\EjemploPOO.AssemblyInfo.cs
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\EjemploPOO.csproj.CoreCompileInputs.cache
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\EjemploPOO.sourcelink.json
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\EjemploPOO.dll
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\refint\EjemploPOO.dll
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\EjemploPOO.pdb
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\EjemploPOO.genruntimeconfig.cache
+C:\Users\Jhan\Desktop\proyectos_c#\EjemploPOO\obj\Debug\net10.0\ref\EjemploPOO.dll
