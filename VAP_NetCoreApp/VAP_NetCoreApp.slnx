@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="VAP_NetCoreApp.Models/VAP_NetCoreApp.Models.csproj" />
+  <Project Path="VAP_NetCoreApp.Web/VAP_NetCoreApp.Web.csproj" />
+</Solution>
